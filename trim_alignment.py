@@ -2,7 +2,7 @@ from numpy import average, median
 from Bio import SeqIO
 import re
 
-### USAGE: Slice a Silva alignment to 1300bp maintaining alignment gaps
+### USAGE: Slice a gapped Silva alignment to 1300bp of aligned nucleotides
 ### Python 2.7
 
 

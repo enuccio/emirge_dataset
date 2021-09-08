@@ -15,8 +15,8 @@ emirge_rename_fasta.py iter.40 > sample1_iter.40.fasta
 
 # Put sequences in QIIME format
 # Note: Rename OTU IDs in EMIRGE files so they're unique (this is important for creating the OTU table later)
-# Replace each | with appropriate run name (eg, .B1.)
-sed 's/|/.B1euk./' sample1_iter.40.fasta > sample1_unique_iter.40.fasta
+# Replace each | with appropriate run name (eg, .sample1.)
+sed 's/|/.sample1_euk./' sample1_iter.40.fasta > sample1_unique_iter.40.fasta
 
 # Create a mapping file
 euk_id_map_emirge.txt # make a text file that assigns a sample ID to a fasta file, for example:

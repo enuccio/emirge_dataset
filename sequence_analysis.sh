@@ -1,5 +1,5 @@
 ##### Sequence analysis for EMIRGE dataset #####
-# Software versions: USEARCH v7, QIIME 1.8, python 2.7
+# Software versions: USEARCH v7, QIIME 1.8, python 2.7, Bash shell
 
 
 ### STEP 1: Generate EMIRGE sequences (run for each sample)
